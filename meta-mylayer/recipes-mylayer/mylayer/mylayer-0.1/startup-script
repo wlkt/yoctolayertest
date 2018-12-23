@@ -1,0 +1,10 @@
+#! /bin/sh
+# /etc/init.d/startup-script
+#
+
+/usr/bin/helloworld
+echo "Huom:"
+ls -l /proc/1/exe
+
+exit 0
+
